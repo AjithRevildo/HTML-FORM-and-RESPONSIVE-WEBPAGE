@@ -1,88 +1,131 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-  <link rel="stylesheet" type="text/css" href="C:\Users\ELCOT\Desktop\boot\css\bootstrap.min.css">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+	<title>
+		Survey Form
+	</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+        .checked {
+          color: orange;
+        }
+        .revil{
+    margin: 150px;
+}
+        </style>
 </head>
-<link rel="stylesheet" type="text/css" href="C:\Users\ELCOT\Desktop\kazi\style.css">
 
 <body>
-  <div class="parent">
-      <div class="black1">
-          <h6 class="thalli">Home About Acheivement</h6>
-          <center><h1>Kazi Nazrul Islam</h1></center>
-          <center><p>The national poet of Bangladesh</p></center>
-    </div>
-    <div class="row">
-      <div class="col-md-6">
-         <h3><b>Rebel Poet</b></h3>
-          <p>
-            Born into a Bengali Muslim Kazi family hailing from Burdwan district in Bengal Presidency (now in West Bengal),[2] Nazrul Islam received religious education and as a young man worked as a muezzin at a local mosque. He learned about poetry, drama, and literature while working with the rural theatrical group Letor Dal, Leto being a folk song genre of West Bengal[11] usually performed by the people from Muslim community of the region. He joined the British Indian Army in 1917 and was posted in Karachi. Nazrul established himself as a journalist in Calcutta after the war ended. He criticised the British Raj and called for revolution through his poetic works, such as "Bidrohi" 
-          </p>
-          <h3><b>Awesome Writer</b></h3>
-          <p>
-            Nazrul wrote and composed music for nearly 4,000 songs (many recorded on HMV and gramophone records),[22] collectively known as Nazrul Geeti. In 1942 at the age of 43, he began to suffer from an unknown disease, losing his voice and memory. A medical team in Vienna diagnosed the disease as Pick's disease,[23] a rare incurable neurodegenerative disease. It caused Nazrul's health to decline steadily and forced him to live in isolation. He was also admitted in Ranchi (Jharkhand) psychiatric hospital for many years. At the invitation of the Government of Bangladesh, Nazrul's family took him to Bangladesh and moved to Dhaka in 1972.
-          </p>
-          </div>
-          <div class="col-md-6">
-        <img src="https://images.app.goo.gl/DrxucrrWD4ZSNFXs8" width="500px" height="600px" alt="Kazi Nazrul Islam"></img>
-        </div>
-        </div>
-      
-      <div class="black2">
-          <center><h3>"Love has no meaning or amount" -Kazi Nazrul Islam </h3></center>
-      </div>
-      <div class="white2">
-         <center><span style='font-size:30px;'>&#9733;</span>Award</center>
-        <div class=flex-container>
-            <div><p><b>Jagattarini Gold Medal<br></b>1945<br>From the University of Calcutta for his <br>work in Bengali Literature.</p></div>
-          
-            <div><p><b>Padma Bhushan</b><br>1960<br>One of the highest civilian honours of<br>the Republic of India.</p></div>
-            
-            <div><p><b>National Poet</b><br>Conferred the title by the Government<br>of Bangladesh.</p></div> 
-            <div><p><b>Ekushey Padak</b><br>1976<br>Bangladesh's highest civilian honours</p></div> 
-          </div> 
-          <div class="container-fluid">
-           
-            <div class="row row-no-gutters">
-              <div class="col-sm-6">
-                <h3>Poetry</h3>
-              <h6><ul>
-               <li>Agni Bina (The Fiery Lute), 1922</li>
-                <li>Sanchita (Collected poems), 1925</li>
-                <li>Phanimanasa (The Cactus), 1927</li>
-                <li>Chakrabak (The Flamingo), 1929</li>
-                <li>Satbhai Champa (The Seven Brothers of Champa), juvenile poems, 1933</li>
-                <li>Nirjhar (Fountain), 1939</li>
-                <li>Natun Chand (The New Moon), 1939</li>
-                <li>Morubhaskar (The Sun in the Desert), 1951</li>
-                <li>Sanchayan (Collected Poems), 1955</li>
-</ul></h6>
-              </div>
-              <div class="col-sm-6">
-<h3>Poems and songs</h3>
-             <h6><ul>
-                  <li>Agni Bina (The Fiery Lute), 1922</li>
-                   <li>Sanchita (Collected poems), 1925</li>
-                   <li>Phanimanasa (The Cactus), 1927</li>
-                   <li>Chakrabak (The Flamingo), 1929</li>
-                   <li>Satbhai Champa (The Seven Brothers of Champa), juvenile poems, 1933</li>
-                   <li>Nirjhar (Fountain), 1939</li>
-                   <li>Natun Chand (The New Moon), 1939</li>
-                   <li>Morubhaskar (The Sun in the Desert), 1951</li>
-                   <li>Sanchayan (Collected Poems), 1955</li>
-   </ul></h6>
-              </div>
-            </div>
-          </div>
-          <div class="hi">
-<div class="row">
-  <div class="col-md-4"><p>About the author<br>Made by Md.Abu Taher for a freecodecamp tribute challenge.
-  </p></div>
-  <div class="col-md-4"><p>Techs Used<br>Sementic UI
-  </p></div>
-  <div class="col-md-4"><p>Content Disclaimer<br>The content of this website is mostely copied from Wikipedia,<br>BiographyBD,Thefamouspeople.Orginal credits goes to the<br>respective authors.</div>
-  </p></div></div>
- 
-</body>
+	<form>
+    <label for="name"><b>Name*</b></label> <br>
+    <input name="name" type="text" required/>  <input name="name" type="text"required/><br>
+    <label for="name">First</label>            <label for="name" class="revil">Last</label><br>
+    <br>
+    <label for="name"><b>Email*</b></label><br>
+    <input name="name" type="text" required/><br>
+    <br>
+    <label><b>Your Experience*</b></label><br>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
 
+<p>Overall,how would you rate you experience with us?</p><br>
+    <b>How satisfied are you with*</b><br>
+    <br>
+    <table class="tg">
+        <thead>
+          <tr>
+            <th class="tg-0pky"></th>
+            <th class="tg-0pky">Very Unsatisfied</th>
+            <th class="tg-0pky">Unsatisfied</th>
+            <th class="tg-0pky">Neutral</th>
+            <th class="tg-0pky">Satified</th>
+            <th class="tg-0pky">Very Satisfied</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="tg-0pky">Purchase</td>
+            <td class="tg-0pky"><input type="radio"></td>
+            <td class="tg-0pky"><input type="radio"></td>
+            <td class="tg-0pky"><input type="radio"></td>
+            <td class="tg-0pky"><input type="radio"></td>
+            <td class="tg-0pky"><input type="radio"></td>
+          </tr>
+          <tr>
+            <td class="tg-0pky">Service</td>
+            <td class="tg-0pky"><input type="radio"></td>
+            <td class="tg-0pky"><input type="radio"></td>
+            <td class="tg-0pky"><input type="radio"></td>
+            <td class="tg-0pky"><input type="radio"></td>
+            <td class="tg-0pky"><input type="radio"></td>
+          </tr>
+          <tr>
+            <td class="tg-0pky">Company Overall</td>
+            <td class="tg-0pky"><input type="radio"></td>
+            <td class="tg-0pky"><input type="radio"></td>
+            <td class="tg-0pky"><input type="radio"></td>
+            <td class="tg-0pky"><input type="radio"></td>
+            <td class="tg-0pky"><input type="radio"></td>
+          </tr>
+        </tbody>
+        </table>
+        <br>
+    <b>How Likely are you to*</b><br>
+    <br>
+    <table class="tg">
+        <thead>
+          <tr>
+            <th class="tg-0pky"></th>
+            <th class="tg-0pky">Very Unlikely</th>
+            <th class="tg-0pky">Unlikely</th>
+            <th class="tg-0pky">Neutral</th>
+            <th class="tg-0pky">likely</th>
+            <th class="tg-0pky">Very likely</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="tg-0pky">Buy from us again </td>
+            <td class="tg-0pky"><input type="radio"></td>
+            <td class="tg-0pky"><input type="radio"></td>
+            <td class="tg-0pky"><input type="radio"></td>
+            <td class="tg-0pky"><input type="radio"></td>
+            <td class="tg-0pky"><input type="radio"></td>
+          </tr>
+          <tr>
+            <td class="tg-0pky">Recommend our<br> product to other</td>
+            <td class="tg-0pky"><input type="radio"></td>
+            <td class="tg-0pky"><input type="radio"></td>
+            <td class="tg-0pky"><input type="radio"></td>
+            <td class="tg-0pky"><input type="radio"></td>
+            <td class="tg-0pky"><input type="radio"></td>
+          </tr>
+          <tr>
+            <td class="tg-0pky">Recommend our<br> company to other</td>
+            <td class="tg-0pky"><input type="radio"></td>
+            <td class="tg-0pky"><input type="radio"></td>
+            <td class="tg-0pky"><input type="radio"></td>
+            <td class="tg-0pky"><input type="radio"></td>
+            <td class="tg-0pky"><input type="radio"></td>
+          </tr>
+        </tbody>
+        </table>
+        <br>
+    <b>Additional comments or suggestions</B><br>
+    <textarea rows="4" cols="50">
+    </textarea><br>
+    <input type="submit">
+    </form>
+</body>
 </html>
+
+
+	

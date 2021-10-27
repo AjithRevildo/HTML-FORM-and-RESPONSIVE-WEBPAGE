@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    font-family: "montserrat"sans;
+}
+.parent{
+    margin:auto;
+    display: grid;
+}
+.black1{
+  box-sizing: border-box;
+    background-color: black;
+    color:white;
+    padding:10px;
+    border:1px solid white;
+    width: 1070px;
+    height: 300px;
+}
+.black2{
+    background-color: black;
+    color:white;
+    padding:10px;
+    border:1px solid white;
+    font-size:center;
+    width: auto;
+    height: 100px;
+}
+.black3{
+    background-color: black;
+    color:black;
+    padding:10px;
+    border:1px solid white;
+    font-size:20px;
+    width:auto;
+    height: 150px;
+}
+.white1{
+    color:black;
+    padding:10px;
+    border:1px solid white;
+    font-size:20px;
+    width:auto;
+    height: 500px;
+}
+.white2{
+    background-color: rgb(245, 238, 238);
+    color:black;
+    padding:10px;
+    border:1px solid white;
+    font-size:20px;
+    width:auto;
+    height:500px;
+}
+.flex-container {
+  display: flex;
+  background-color:white;
+  border: black;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 15px;
+}
+.thalli{
+  margin-left: 100px;
+  word-spacing: 10px;
+  font-size: small;
+}
+.hi{
+  font-size: small;
+  background-color: black;
+  color: white;
+}
+li{
+  font-size: small;
+}
